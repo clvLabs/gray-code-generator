@@ -95,7 +95,7 @@ Negative gaps can also be used to make sure the _pieces_ do overlap:
 In some cases (e.g. when 3D-extruding or laser cutting) it may be important to generate the shape as a single closed path.
 
 The recommended procedure in these cases is:
-* Use `--gap -0.1` to make sure your _pieces_ overlap
+* Use `--gap -0.5` to make sure your _pieces_ overlap
 * Use any vector image editor (such as [Inkscape](https://inkscape.org/)) to open the `svg` file:
   * Ungroup the _pieces_.
   * Apply a [boolean union](https://inkscape-manuals.readthedocs.io/en/latest/boolean-operations.html?highlight=union#boolean-operations) to the individual _pieces_ so they become one.
