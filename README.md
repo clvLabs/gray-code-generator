@@ -94,6 +94,9 @@ Negative gaps can also be used to make sure the _pieces_ do overlap:
 
 In some cases (e.g. when 3D-extruding or laser cutting) it may be important to generate the shape as a single closed path.
 
+<img src="docs/resources/images/lasercut-1.jpg" width="600"/>
+<img src="docs/resources/images/lasercut-2.jpg" width="600"/>
+
 The recommended procedure in these cases is:
 * Use `--gap -0.5` to make sure your _pieces_ overlap
 * Use any vector image editor (such as [Inkscape](https://inkscape.org/)) to open the `svg` file:
